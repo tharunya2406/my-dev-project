@@ -2,6 +2,4 @@ FROM httpd:latest
 
 RUN apt update
 
-COPY index.html /usr/local/apache2/htdocs/
-
-EXPOSE 84
+COPY devops-project2/index.html /usr/local/apache2/htdocs/
