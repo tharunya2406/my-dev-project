@@ -1,0 +1,7 @@
+@"
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+"@ | Set-Content -Path "terraform\.gitignore"
